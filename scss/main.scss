@@ -30,7 +30,7 @@ header {
             border: none;
             background: linear-gradient(135deg, #ff974f 0%, #e32c75 100%);
             &:after {
-                content: url("/img/plus_icon.png");
+                content: url("../img/plus_icon.png");
                 position: absolute;
                 width: 20px;
                 height: 20px;
@@ -157,7 +157,7 @@ nav.header__bot-content {
                     margin-top: 16px;
                     letter-spacing: -0.5px;
                     color: #f05d63;
-                    background: transparent url(/img/edit_icon_profile.svg)
+                    background: transparent url("../img/edit_icon_profile.svg")
                         center left no-repeat;
                     padding-left: 23px;
                 }
@@ -166,7 +166,7 @@ nav.header__bot-content {
                 overflow: hidden;
 
                 & button.drop-btn {
-                    background: transparent url("/img/icon_3_dots_menu.svg")
+                    background: transparent url("../img/icon_3_dots_menu.svg")
                         left center no-repeat;
                     padding: 10px;
                     border: none;
@@ -195,7 +195,7 @@ nav.header__bot-content {
                             padding: 9px 24px 9px 42px;
                             &:before {
                                 position: relative;
-                                content: url("/img/icon_report.svg");
+                                content: url("../img/icon_report.svg");
                                 left: -16px;
                                 top: 5px;
                             }
@@ -204,7 +204,7 @@ nav.header__bot-content {
                             padding: 9px 24px 9px 42px;
                             &:before {
                                 position: relative;
-                                content: url("/img/icon_block.svg");
+                                content: url("../img/icon_block.svg");
                                 left: -16px;
                                 top: 5px;
                             }
@@ -355,8 +355,8 @@ input:checked + .slider:before {
                     font-weight: $fweight600;
                     color: $secondary-color;
                     text-decoration: none;
-                    background: transparent url("/img/icon_link\ copy.svg") left
-                        center no-repeat;
+                    background: transparent url("../img/icon_link\ copy.svg")
+                        left center no-repeat;
                     padding-left: 23px;
                 }
             }
@@ -382,11 +382,13 @@ input:checked + .slider:before {
                     font-weight: $fweight600;
                 }
                 & button.post__bottom-section__play {
-                    background: url("/img/icon_view.svg") left center no-repeat;
+                    background: url("../img/icon_view.svg") left center
+                        no-repeat;
                     padding-left: 23px;
                 }
                 & button.post__bottom-section__likes {
-                    background: url("/img/icon_like.svg") left center no-repeat;
+                    background: url("../img/icon_like.svg") left center
+                        no-repeat;
                     padding-left: 23px;
                 }
                 &__left {
@@ -397,8 +399,8 @@ input:checked + .slider:before {
                         font-weight: $fweight600;
                         color: $secondary-color;
                         line-height: 1.35;
-                        background: transparent url("/img/Oval.svg") center left
-                            no-repeat;
+                        background: transparent url("../img/Oval.svg") center
+                            left no-repeat;
                         padding: 3px 0 3px 30px;
                     }
                 }
