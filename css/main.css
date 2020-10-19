@@ -31,7 +31,7 @@ header .header__bot-content__add-button button {
 }
 
 header .header__bot-content__add-button button:after {
-  content: url("/img/plus_icon.png");
+  content: url("../img/plus_icon.png");
   position: absolute;
   width: 20px;
   height: 20px;
@@ -199,7 +199,7 @@ nav.header__bot-content a.active-nav-link:after {
   margin-top: 16px;
   letter-spacing: -0.5px;
   color: #f05d63;
-  background: transparent url(/img/edit_icon_profile.svg) center left no-repeat;
+  background: transparent url("../img/edit_icon_profile.svg") center left no-repeat;
   padding-left: 23px;
 }
 
@@ -208,7 +208,7 @@ nav.header__bot-content a.active-nav-link:after {
 }
 
 .media-profile__details__top-section__profile-options button.drop-btn {
-  background: transparent url("/img/icon_3_dots_menu.svg") left center no-repeat;
+  background: transparent url("../img/icon_3_dots_menu.svg") left center no-repeat;
   padding: 10px;
   border: none;
   z-index: 3;
@@ -244,7 +244,7 @@ nav.header__bot-content a.active-nav-link:after {
 
 .media-profile__details__top-section__profile-options .dropdown-content a.dropdown__item-1:before {
   position: relative;
-  content: url("/img/icon_report.svg");
+  content: url("../img/icon_report.svg");
   left: -16px;
   top: 5px;
 }
@@ -255,7 +255,7 @@ nav.header__bot-content a.active-nav-link:after {
 
 .media-profile__details__top-section__profile-options .dropdown-content a.dropdown__item-2:before {
   position: relative;
-  content: url("/img/icon_block.svg");
+  content: url("../img/icon_block.svg");
   left: -16px;
   top: 5px;
 }
@@ -423,7 +423,7 @@ input:checked + .slider:before {
   font-weight: 600;
   color: #3e4056;
   text-decoration: none;
-  background: transparent url("/img/icon_link copy.svg") left center no-repeat;
+  background: transparent url("../img/icon_link copy.svg") left center no-repeat;
   padding-left: 23px;
 }
 
@@ -457,12 +457,12 @@ input:checked + .slider:before {
 }
 
 .media-profile__posts-section__posts .post .post__bottom-section button.post__bottom-section__play {
-  background: url("/img/icon_view.svg") left center no-repeat;
+  background: url("../img/icon_view.svg") left center no-repeat;
   padding-left: 23px;
 }
 
 .media-profile__posts-section__posts .post .post__bottom-section button.post__bottom-section__likes {
-  background: url("/img/icon_like.svg") left center no-repeat;
+  background: url("../img/icon_like.svg") left center no-repeat;
   padding-left: 23px;
 }
 
@@ -478,7 +478,7 @@ input:checked + .slider:before {
   font-weight: 600;
   color: #3e4056;
   line-height: 1.35;
-  background: transparent url("/img/Oval.svg") center left no-repeat;
+  background: transparent url("../img/Oval.svg") center left no-repeat;
   padding: 3px 0 3px 30px;
 }
 
