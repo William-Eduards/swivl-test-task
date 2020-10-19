@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Markup developer test task for Swivl</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top-content main-container">
+            <div class="header__top-content__logo">
+                <a href="#"><img src="./img/logo.png" alt="Logo is loading"></a>
+            </div>
+            <div class="header__top-content__profile-items">
+                <div class="header__top-content__profile-items--left" id="profileInfo">
+                    <div class="profile-name">
+                        Arthur Wood 
+                    </div>
+                    <div class="profile-icon">
+                        <img src="./img/profile-img__top-header.png" alt="Profile image">
+                        <button class="profile-details"><i class="profile-icon__arrow-down"></i></button>
+                    </div>
+                </div>
+                <div class="header__top-content__profile-items--right">
+                    <div class="profile-items__icons"><a href="#"><img src="./img/notifications.svg" alt=""></a></div>
+                    <div class="profile-items__icons"><a href="#"><img src="./img/share recap.svg" alt=""></a></div>
+                    <div class="profile-items__icons"><a href="#"><img src="./img/medium.svg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+        <nav class="header__bot-content main-container">
+            <a href="#" class="header__bot-content__nav-link1 active-nav-link">Feed</a>
+            <a href="#" class="header__bot-content__nav-link2">Explore</a>
+            <a href="#" class="header__bot-content__nav-link3">Discussion</a>
+        </nav>
+        <div class="header__bot-content__add-button main-container">
+            <button class="btn"></button>
+        </div>
+    </header>
+    <main class="media-profile main-container">
+        <section class="media-profile__details">
+            <div class="media-profile__details__top-section">
+                <div class="media-profile__details__top-section__avatar"><img src="./img/avatar.png" alt="Profile avatar"></div>
+                <div class="media-profile__details__top-section__profile-info">
+                    <p class="profile-info__name">Benjamin Clementine</p>
+                    
+                    <a href="#" class="profile-info__link">@benclementine</a>
+                    <a href="#" class="profile-info__edit">Edit Profile</a>
+                </div>
+                <div class="media-profile__details__top-section__profile-options dropdown">
+                    <button class="drop-btn"></button>
+                    <div id="profileOptions" class="dropdown-content">
+                        <a href="#" class="dropdown__item-1">Report User</a>
+                        <a href="#" class="dropdown__item-2">Block User</a>
+                    </div>
+                </div>
+            </div>
+            <div class="media-profile__details__middle-section">
+                <div class="media-profile-synths">
+                    <p class="quantity">45</p>
+                    <p class="naming">synths</p>
+                </div>
+                <div class="media-profile-followers">
+                    <p class="quantity">110</p>
+                    <p class="naming">followers</p>
+                </div>
+                <div class="media-profile-following">
+                    <p class="quantity">322</p>
+                    <p class="naming">following</p>
+                </div>
+            </div>
+            <div class="media-profile__details__bottom-section">
+                <p class="media-profile__status">Cryptocurrencies including Ethereum, Ripple, and Litecoin have all plunged between 20 to 30 percent each, according to CoinMarketCap. Here is the latest Ripple price news and live updates on XRP, bitcoin and Ethereum.</p>
+            </div>
+        </section>
+        <section class="media-profile__posts-section">
+            <div class="media-profile__posts-section__switcher">
+                <span class="public">Public</span>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <span class="private">Private</span>
+            </div>
+            <div class="media-profile__posts-section__posts">
+                <div class="post post1">                        
+                        <p class="posts-top">New air routes that promise cheap flights in</p>
+                    <div class="post__bottom-section">
+                        <div class="post__bottom-section__left">
+                            <a href="#" class="post__bottom-section__link1">Gregory Watkins</a>
+                        </div>
+                        <div class="post__bottom-section__right">
+                            <button  class="post__bottom-section__share posts-top">Share</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="post post2">
+                    <p class="posts-top">New air routes that promise cheap flights in</p>                        
+                    <div class="post__bottom-section">
+                        <div class="post__bottom-section__left">
+                            <a href="#" class="post__bottom-section__link1">Gregory Watkins</a>
+                        </div>
+                        <div class="post__bottom-section__right">
+                            <button  class="post__bottom-section__share posts-top">Share</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="post post3">
+                    <div class="post__top-section">
+                        <span>Shared to </span><a href="#" class="post__top-section__shared-link">#discussionaboutanimgttdds…</a>
+                    </div>
+                    <p class="posts-bottom">New air routes that promise cheap flights in</p>
+                    <div class="post__bottom-section">
+                        <div class="post__bottom-section__left">
+                            <a href="#" class="post__bottom-section__link1">Gregory Watkins</a>
+                        </div>
+                        <div class="post__bottom-section__right">
+                            <button class="post__bottom-section__play posts-bottom">88</button>
+                            <button class="post__bottom-section__likes posts-bottom">24</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="post post4">
+                    <div class="post__top-section">
+                        <a href="#" class="post__top-section__weblink">Shared via weblink</a>
+                    </div>
+                    <p class="posts-bottom">New air routes that promise cheap flights in</p>
+                    <div class="post__bottom-section">
+                        <div class="post__bottom-section__left">
+                            <a href="#" class="post__bottom-section__link">Gregory Watkins</a>
+                        </div>
+                        <div class="post__bottom-section__right">
+                            <button class="post__bottom-section__play posts-bottom">88</button>
+                            <button class="post__bottom-section__likes posts-bottom">24</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
